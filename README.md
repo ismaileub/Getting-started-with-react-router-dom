@@ -46,7 +46,27 @@ Next, we'll configure a `BrowserRouter` for client-side routing in React.
 2. Replace the content of `main.jsx` with the following code:
 
 ```jsx
-import React from 'react'; import ReactDOM from 'react-dom/client'; import { createBrowserRouter, RouterProvider } from 'react-router-dom'; import './index.css'; const router = createBrowserRouter([{ path: '/', element: <div>Hello world</div>, }]); ReactDOM.createRoot(document.getElementById('root')).render( <React.StrictMode> <RouterProvider router={router} /> </React.StrictMode> );
+    import React from 'react';
+    import ReactDOM from 'react-dom/client';
+    import {
+      createBrowserRouter,
+      RouterProvider,
+    } from 'react-router-dom';
+    import './index.css';
+    
+    const router = createBrowserRouter([
+      {
+        path: '/',
+        element: <div>Hello world</div>,
+      },
+    ]);
+    
+    ReactDOM.createRoot(document.getElementById('root')).render(
+      <React.StrictMode>
+        <RouterProvider router={router} />
+      </React.StrictMode>
+    );
+
 ```
 
 3. Save the file and refresh your browser to see the changes. You should see "Hello world" displayed on the screen.
