@@ -20,7 +20,10 @@ Follow these steps to create a new React project using Vite:
 2. Run the following commands:
 
 ```bash
-npm create vite@latest name-of-your-project --template react && cd name-of-your-project && npm install react-router-dom localforage match-sorter sort-by && npm run dev
+npm create vite@latest name-of-your-project --template react 
+cd name-of-your-project 
+npm install react-router-dom localforage match-sorter sort-by
+npm run dev
 ```
 
 3. After running `npm run dev`, you should see output similar to:
