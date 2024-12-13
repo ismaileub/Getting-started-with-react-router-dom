@@ -121,11 +121,13 @@ export default router;
 ```
 
 Key Details About the Code:
-1. Router in a Separate File: The above router configuration is stored in its own file (e.g., router.js) for better modularity and reusability. It is then imported into the main application file or other components as needed.
+1. **Router in a Separate File**: 
+The above router configuration is stored in its own file (e.g., router.js) for better modularity and reusability. It is then imported into the main application file or other components as needed.
 
-2. Parent Route (Main): The parent route's component (Main) serves as a shared layout, often including elements like a navigation bar or footer. The child routes are rendered inside this component using the <Outlet /> from react-router-dom.
+2. **Parent Route (Main)**: 
+The parent route's component (Main) serves as a shared layout, often including elements like a navigation bar or footer. The child routes are rendered inside this component using the <Outlet /> from react-router-dom.
 
-3. Child Routes:
+3. **Child Routes**:
 The Home component is displayed at /.
 The Login component is displayed at /login.
 The SignUp component is displayed at /signup.
@@ -167,7 +169,7 @@ Now that your app is set up with React Router, here are some suggestions for wha
    Customize your app’s appearance using CSS, TailwindCSS, or component libraries like Material-UI or Chakra UI.
 
 9. **Deploy Your App**:  
-   Once your app is ready, deploy it using platforms like [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [GitHub Pages](https://pages.github.com/).
+   Once your app is ready, deploy it using platforms like [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/).
 
 For more details and examples, check out the official [React Router documentation](https://reactrouter.com/).
 
